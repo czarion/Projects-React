@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo } from 'react';
-import { useAuth } from '../../context/AuthContext';
-import { useTrips } from '../../hooks/useTrips';
+import { useAuth } from '../context/AuthContext';
+import { useTrips } from '../hooks/useTrips';
 import { Plane, Calendar as CalendarIcon, DollarSign, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { format, isAfter } from 'date-fns';
